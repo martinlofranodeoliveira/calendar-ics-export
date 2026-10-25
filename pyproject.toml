@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "calendar-ics-export"
+version = "0.1.0"
+description = "Deterministic, dependency-free UTC JSON to iCalendar export"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Martin Lofrano de Oliveira"}]
+keywords = ["calendar", "icalendar", "ics", "utc", "json"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.scripts]
+calendar-ics-export = "calendar_ics_export.__main__:main"
+
+[project.urls]
+Repository = "https://github.com/martinlofranodeoliveira/calendar-ics-export"
+
+[tool.setuptools]
+packages = ["calendar_ics_export"]

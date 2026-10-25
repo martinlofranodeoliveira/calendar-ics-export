@@ -1,0 +1,20 @@
+{
+  "stamp": "2026-10-25T12:00:00Z",
+  "events": [
+    {
+      "uid": "workshop-02@example.invalid",
+      "start": "2026-11-03T15:00:00Z",
+      "end": "2026-11-03T15:45:00Z",
+      "summary": "Open data workshop: questions",
+      "location": "Community room B"
+    },
+    {
+      "uid": "workshop-01@example.invalid",
+      "start": "2026-11-03T14:00:00Z",
+      "end": "2026-11-03T15:00:00Z",
+      "summary": "Open data workshop: café & maps",
+      "description": "Bring a laptop, a sample dataset; and curiosity.\nAll example details are synthetic.",
+      "location": "Community room A"
+    }
+  ]
+}
